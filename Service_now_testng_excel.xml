@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose = "5">
+  <test thread-count="5" name="Test">
+	<parameter name="url" value="https://dev66648.service-now.com/login.do?"></parameter>
+	<parameter name="uName" value="admin"></parameter>
+	<parameter name="pword" value="Janu1012$"></parameter>
+<classes>
+      <class name="week5.day2.CreateIncident"/>
+      <class name="week5.day2.UpdateIncident"/>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
